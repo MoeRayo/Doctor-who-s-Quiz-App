@@ -255,3 +255,96 @@ font-weight: 800;
     margin-top: 1rem;
 }
 
+/* media Queries */
+@media screen and (max-width:1472px) and (min-width:1200px){
+    .main-box .choice-board .choice{
+        flex-basis: 43%;
+    }
+}
+@media screen and (max-width:1199px) and (min-width:1000px){
+    .wrapper{
+        width: 60%;
+    }
+    .main-box .choice-board .choice{
+        flex-basis: 43%;
+    }
+}
+@media screen and (max-width:999px) and (min-width:880px){
+    .wrapper{
+        width: 75%;
+    }
+    .main-box .choice-board .choice{
+        flex-basis: 43%;
+    }
+    
+}
+@media screen and (max-width:879px) and (min-width:710px){
+    .wrapper{
+        width: 70%;
+    }
+    .main-box .choice-board .choice{
+        flex-basis: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media screen and (max-width:709px) and (min-width:670px){
+    .wrapper{
+        width: 73%;
+    }
+    
+    .main-box .choice-board .choice{
+        flex-basis: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .main-box .question-board{
+        font-size: 1.3rem;
+        padding: 1.7rem 1.5rem;
+    }
+}
+@media screen and (max-width:669px) and (min-width:570px){
+    .wrapper{
+        width: 80%;
+        padding: 2rem;
+    }
+    
+    .main-box .choice-board .choice{
+        flex-basis: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-box .question-board{
+        font-size: 1.3rem;
+        padding: 1.7rem 1.5rem;
+    }
+    
+}
+@media (max-width:569px){
+    h1{
+        font-size: 1.8rem;
+        
+    }
+    .main-box .question-board{
+        
+        font-size: 1.15rem;
+       
+        padding: 1.5rem 1.3rem;
+    }
+    .wrapper{
+        width: 85%;
+        padding: 1.5rem;
+    }
+    main{
+        font-size: 1.2rem;
+    }
+    .main-box .choice-board .choice{
+        flex-basis: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+    }
+    
+}
