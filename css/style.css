@@ -24,7 +24,7 @@ body {
 }
 .welcome-box.show{
     display: block;
-    animation: fadeInRight 1s ease;
+    animation: fadeIn 1s ease;
 }
 .welcome-box header{
     padding:0 0 2rem 0;
@@ -76,12 +76,12 @@ main .cite{
 }
 .main-box.show{
     display: block;
-    animation: fadeInRight 1s ease;
+    animation: fadeIn 1s ease;
 }
-@keyframes fadeInRight{
+@keyframes fadeIn{
     0%{
         opacity: 0;
-        transform: translateX(40px);
+        transform: translateX(-40px);
     }
     100%{
         opacity: 1;
@@ -221,7 +221,7 @@ main .cite{
 }
 .next-btn.show,.leave-quiz-btn.show{
     display: inline-block;
-    animation: fadeInRight 1s ease;
+    animation: fadeIn 1s ease;
     
 }
 
@@ -231,7 +231,7 @@ main .cite{
 }
 .end-box.show{
     display: block;
-    animation: fadeInRight 1s ease;
+    animation: fadeIn 1s ease;
 
 }
 .end-box header p{
@@ -257,13 +257,16 @@ font-weight: 800;
 
 /* media Queries */
 @media screen and (max-width:1472px) and (min-width:1200px){
+    .wrapper{
+        width: 68%;
+    }
     .main-box .choice-board .choice{
         flex-basis: 43%;
     }
 }
 @media screen and (max-width:1199px) and (min-width:1000px){
     .wrapper{
-        width: 60%;
+        width: 68%;
     }
     .main-box .choice-board .choice{
         flex-basis: 43%;
