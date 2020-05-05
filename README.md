@@ -1,6 +1,6 @@
 # Doctor-Who's Quiz App
 
-![Design preview for the Doctor Who Quiz App](./images/FrontendQuizPrevie.png)
+![Design preview for the Doctor Who Quiz App](./images/FrontendQuizPreview.png)
 
 ## Welcome! 👋
 
