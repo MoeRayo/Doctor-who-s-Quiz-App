@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out my quiz app developed for start.ng internship.
+Thank you for checking out my quiz app developed for start.ng internship.
 
 **This task was completed with HTML CSS and Javascript.**
 
